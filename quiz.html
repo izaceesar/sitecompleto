@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/favicon-32x32.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>Refrescah</title>
+</head>
+<body>
+
+     <header>
+        <img src="img/logo chá.png" alt="">
+
+        <a class="home" href="index.html">Home</a>
+        <a href="produtos.html">Nossos Sabores</a>
+        <a href="quiz.html">Quiz</a>
+        <a href="contato.html" class="contato">Fale com agente</a>        
+     </header>
+
+     <section class="quiz-section">
+ 
+       
+        <section class="quiz-container">
+            <h1>Quiz sobre a Refrescah</h1>
+            <form id="quiz-form">
+   
+                <!-- Pergunta 1 -->
+                <section class="question">
+                    <p>1. Qual é o principal produto da Refrescah?</p>
+                    <label><input type="radio" name="q1" value="a" onclick="disableOptions('q1')"> a) Refrigerante</label><br>
+                    <label><input type="radio" name="q1" value="b" onclick="disableOptions('q1')"> b) Suco natural</label><br>
+                    <label><input type="radio" name="q1" value="c" onclick="disableOptions('q1')"> c) Água com gás</label><br>
+                    <label><input type="radio" name="q1" value="d" onclick="disableOptions('q1')"> d) Chá gelado</label>
+                </section>
+   
+                <!-- Pergunta 2 -->
+                <section class="question">
+                    <p>2. Qual é o objetivo principal da Refrescah?</p>
+                    <label><input type="radio" name="q2" value="a" onclick="disableOptions('q2')"> a) Proporcionar uma experiência refrescante e saudável</label><br>
+                    <label><input type="radio" name="q2" value="b" onclick="disableOptions('q2')"> b) Fabricar refrigerantes para o público jovem</label><br>
+                    <label><input type="radio" name="q2" value="c" onclick="disableOptions('q2')"> c) Criar bebidas energéticas</label><br>
+                    <label><input type="radio" name="q2" value="d" onclick="disableOptions('q2')"> d) Vender produtos à base de café</label>
+                </section>
+   
+                <!-- Pergunta 3 -->
+                <section class="question">
+                    <p>3. Quais ingredientes são usados nos chás gelados da Refrescah?</p>
+                    <label><input type="radio" name="q3" value="a" onclick="disableOptions('q3')"> a) Ingredientes artificiais</label><br>
+                    <label><input type="radio" name="q3" value="b" onclick="disableOptions('q3')"> b) Ingredientes naturais de alta qualidade</label><br>
+                    <label><input type="radio" name="q3" value="c" onclick="disableOptions('q3')"> c) Corantes e conservantes</label><br>
+                    <label><input type="radio" name="q3" value="d" onclick="disableOptions('q3')"> d) Aromas sintéticos</label>
+                </section>
+   
+                <!-- Pergunta 4 -->
+                <section class="question">
+                    <p>4. Qual é o diferencial dos chás gelados da Refrescah?</p>
+                    <label><input type="radio" name="q4" value="a" onclick="disableOptions('q4')"> a) Feitos com açúcares refinados</label><br>
+                    <label><input type="radio" name="q4" value="b" onclick="disableOptions('q4')"> b) Feitos com ingredientes naturais</label><br>
+                    <label><input type="radio" name="q4" value="c" onclick="disableOptions('q4')"> c) Contém conservantes</label><br>
+                    <label><input type="radio" name="q4" value="d" onclick="disableOptions('q4')"> d) Produzidos em larga escala</label>
+                </section>
+   
+                <!-- Pergunta 5 -->
+                <section class="question">
+                    <p>5. Qual a missão da Refrescah?</p>
+                    <label><input type="radio" name="q5" value="a" onclick="disableOptions('q5')"> a) Vender bebidas a preços baixos</label><br>
+                    <label><input type="radio" name="q5" value="b" onclick="disableOptions('q5')"> b) Proporcionar uma experiência refrescante e saudável</label><br>
+                    <label><input type="radio" name="q5" value="c" onclick="disableOptions('q5')"> c) Criar chás com sabor artificial</label><br>
+                    <label><input type="radio" name="q5" value="d" onclick="disableOptions('q5')"> d) Expandir globalmente sem compromisso</label>
+                </section>
+   
+                <!-- Pergunta 6 -->
+                <section class="question">
+                    <p>6. O que a Refrescah busca promover?</p>
+                    <label><input type="radio" name="q6" value="a" onclick="disableOptions('q6')"> a) Um estilo de vida saudável</label><br>
+                    <label><input type="radio" name="q6" value="b"> b) O consumo de bebidas artificiais</label><br>
+                    <label><input type="radio" name="q6" value="c" onclick="disableOptions('q6')"> c) A redução do uso de ingredientes naturais</label><br>
+                    <label><input type="radio" name="q6" value="d"> d) A venda de produtos não sustentáveis</label>
+                </section>
+   
+                <!-- Pergunta 7 -->
+                <section class="question">
+                    <p>7. Qual é a visão da Refrescah?</p>
+                    <label><input type="radio" name="q7" value="a" onclick="disableOptions('q7')"> a) Ser a marca mais vendida de refrigerantes</label><br>
+                    <label><input type="radio" name="q7" value="b"> b) Ser reconhecida como líder em chás gelados naturais</label><br>
+                    <label><input type="radio" name="q7" value="c" onclick="disableOptions('q7')"> c) Ser uma marca desconhecida</label><br>
+                    <label><input type="radio" name="q7" value="d"> d) Oferecer apenas sabores artificiais</label>
+                </section>
+   
+                <!-- Pergunta 8 -->
+                <section class="question">
+                    <p>8. Qual é uma característica dos chás gelados da Refrescah?</p>
+                    <label><input type="radio" name="q8" value="a" onclick="disableOptions('q8')"> a) Eles são enlatados</label><br>
+                    <label><input type="radio" name="q8" value="b"> b) Eles são pasteurizados</label><br>
+                    <label><input type="radio" name="q8" value="c" onclick="disableOptions('q8')"> c) Eles são feitos com ingredientes naturais</label><br>
+                    <label><input type="radio" name="q8" value="d"> d) Eles são vendidos em garrafas de plástico</label>
+                </section>
+   
+                <!-- Pergunta 9 -->
+                <section class="question">
+                    <p>9. Qual é a origem dos ingredientes usados pela Refrescah?</p>
+                    <label><input type="radio" name="q9" value="a" onclick="disableOptions('q9')"> a) São provenientes de fornecedores locais</label><br>
+                    <label><input type="radio" name="q9" value="b"> b) Eles vêm de fábricas estrangeiras</label><br>
+                    <label><input type="radio" name="q9" value="c" onclick="disableOptions('q9')"> c) Eles são importados de países distantes</label><br>
+                    <label><input type="radio" name="q9" value="d"> d) Não há origem definida</label>
+                </section>
+   
+                <!-- Pergunta 10 -->
+                <section class="question">
+                    <p>10. Qual é o compromisso da Refrescah em relação ao meio ambiente?</p>
+                    <label><input type="radio" name="q10" value="a" onclick="disableOptions('q10')"> a) Promover práticas sustentáveis</label><br>
+                    <label><input type="radio" name="q10" value="b"> b) Aumentar a produção de plásticos</label><br>
+                    <label><input type="radio" name="q10" value="c" onclick="disableOptions('q10')"> c) Ignorar as questões ambientais</label><br>
+                    <label><input type="radio" name="q10" value="d"> d) Utilizar ingredientes químicos</label>
+                </section>
+   
+                <button class="buttones"  type="button" onclick="SubmitQuiz()">Enviar Respostas</button>
+                <button class="buttones" id="reiniciar" type="button" onclick="submitAgain()">Responder Novamente</button>
+
+            </form>
+        </section>
+ </section>
+   
+    <section id="result"></section>
+    <audio id="venceusom" src="som/venceu.mp3" preload="auto"></audio>
+    <audio id="perdeusom" src="som/perdeu.mp3" preload="auto"></audio>
+
+    <section id="result"></section>
+
+    <footer class="footer">
+        <section class="footer-container">
+            <section class="footer-logo">
+                <img class="logo-footer" src="img/logo chá.png" alt="Logo Refrescah">
+                <p>CHÁS</p>
+                <p>Para que cada pessoa aproveite ainda mais sua jornada com uma companhia inesquecível, a Refrescah possui produtos diferenciados que oferecem uma experiência única ao consumidor.</p>
+            </section>
+
+            <section class="footer-contact">
+                <p>Rua Voluntários da Pátria, 2468<br>Sala 35/37 - Santana - São Paulo/SP</p>
+                <p><strong>(11) 3360-7697 | (11) 3360-5212</strong></p>
+                <div class="contact-info">
+                    <p><i class="fas fa-envelope"></i> <strong>E-mail</strong> <a href="#"></a></p>
+                    <p><i class="fab fa-instagram"></i> <strong>Instagram</strong> <a href="#" target="_blank"></a></p>
+                    <p><i class="fa-brands fa-youtube"></i><strong>Youtube</strong> <a href="#" target="_blank"></a></p>
+                   
+                </div>
+            </section>
+        </section>
+        <section class="footer-bottom">
+            <p>Todos os direitos reservados a Refrescah</p>
+        </section>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
